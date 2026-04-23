@@ -1,0 +1,15 @@
+// ltl-orderbook/main.ltl
+//
+// Price-time-priority limit-order book in pure Lateralus.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-orderbook v0.1.0")
+    io::println("Price-time-priority limit-order book in pure Lateralus.")
+    0
+}
