@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_orderbook
+
+import std::io
+use ltl_orderbook as lib
+
+fn main() {
+    io::println("ltl_orderbook demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
